@@ -1,0 +1,7350 @@
+{
+ "227_9478.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4016,
+     560,
+     4174,
+     695
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3319,
+     531,
+     3444,
+     666
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3377,
+     772,
+     3502,
+     907
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4020,
+     808,
+     4177,
+     943
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4087,
+     1145,
+     4245,
+     1280
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3322,
+     1126,
+     3479,
+     1261
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3721,
+     1975,
+     3878,
+     2110
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3692,
+     1380,
+     3849,
+     1515
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1476,
+     2261,
+     1634,
+     2396
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2547,
+     2428,
+     2705,
+     2563
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2579,
+     1750,
+     2737,
+     1885
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1581,
+     1505,
+     1738,
+     1640
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3528,
+     688,
+     3962,
+     1088
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3568,
+     1548,
+     4002,
+     1948
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2375,
+     1941,
+     2848,
+     2354
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1372,
+     1767,
+     1845,
+     2181
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3542,
+     2281,
+     4108,
+     2794
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3278,
+     554,
+     4232,
+     1341
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 12,
+   "bearing": 4,
+   "plate": 2
+  }
+ },
+ "227_9479.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3726,
+     143,
+     3937,
+     366
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4613,
+     189,
+     4824,
+     413
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4693,
+     696,
+     4904,
+     920
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3691,
+     692,
+     3902,
+     916
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1187,
+     2375,
+     1397,
+     2599
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2706,
+     2586,
+     2917,
+     2810
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2693,
+     1605,
+     2904,
+     1829
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1288,
+     1278,
+     1499,
+     1502
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     4058,
+     1271,
+     4490,
+     1726
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3973,
+     60,
+     4583,
+     607
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2523,
+     1911,
+     3133,
+     2458
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1046,
+     1668,
+     1656,
+     2216
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3995,
+     2311,
+     4788,
+     2998
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3465,
+     1,
+     5085,
+     994
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4186,
+     1789,
+     4397,
+     2013
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4126,
+     983,
+     4337,
+     1206
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 10,
+   "bearing": 4,
+   "plate": 2
+  }
+ },
+ "227_9480.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1514,
+     1138,
+     2454,
+     1958
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1861,
+     595,
+     2145,
+     869
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3890,
+     991,
+     4174,
+     1265
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3637,
+     1435,
+     4577,
+     2255
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4019,
+     2390,
+     4303,
+     2664
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1818,
+     2211,
+     2102,
+     2485
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 2,
+   "bolt": 4
+  }
+ },
+ "227_9492.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2149,
+     1007,
+     2230,
+     1100
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2893,
+     813,
+     2973,
+     907
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3476,
+     1076,
+     3556,
+     1169
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3667,
+     1766,
+     3747,
+     1859
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3525,
+     2442,
+     3605,
+     2536
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2719,
+     2625,
+     2799,
+     2718
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2038,
+     2384,
+     2118,
+     2478
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1504,
+     1354,
+     2078,
+     2111
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3576,
+     1443,
+     4150,
+     2200
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2040,
+     945,
+     2281,
+     1189
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 7,
+   "bolt": 3
+  }
+ },
+ "227_9493.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4838,
+     2665,
+     4962,
+     2785
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1807,
+     1597,
+     1931,
+     1717
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2768,
+     1314,
+     2893,
+     1434
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4582,
+     2560,
+     5067,
+     3121
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     743,
+     2827,
+     1228,
+     3388
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4019,
+     1637,
+     4143,
+     1757
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2539,
+     1243,
+     3024,
+     1724
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     885,
+     2979,
+     992,
+     3077
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 5,
+   "bolt": 3
+  }
+ },
+ "227_9494.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3198,
+     902,
+     3344,
+     1033
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2550,
+     514,
+     2687,
+     660
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1997,
+     383,
+     2397,
+     795
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3133,
+     1104,
+     3173,
+     1146
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2059,
+     908,
+     2109,
+     965
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3266,
+     923,
+     3316,
+     980
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2602,
+     540,
+     2637,
+     563
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2287,
+     582,
+     2337,
+     639
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3015,
+     610,
+     3065,
+     667
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1905,
+     1453,
+     2040,
+     1609
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3538,
+     1328,
+     3673,
+     1483
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 5,
+   "pin": 6
+  }
+ },
+ "227_9495.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2251,
+     774,
+     2326,
+     841
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2640,
+     699,
+     2715,
+     766
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3148,
+     877,
+     3223,
+     944
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3393,
+     1331,
+     3468,
+     1399
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3094,
+     1664,
+     3169,
+     1731
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1873,
+     1267,
+     1948,
+     1334
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2111,
+     1595,
+     2186,
+     1662
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 7
+  }
+ },
+ "227_9496.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1886,
+     1479,
+     2013,
+     1615
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2880,
+     1105,
+     3007,
+     1241
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3195,
+     2154,
+     3322,
+     2290
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2199,
+     2492,
+     2325,
+     2629
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1810,
+     2155,
+     1894,
+     2234
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2254,
+     1098,
+     2338,
+     1177
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3286,
+     1544,
+     3370,
+     1624
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2870,
+     2586,
+     2954,
+     2665
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1579,
+     1254,
+     2075,
+     1864
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3141,
+     1940,
+     3637,
+     2551
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 2
+  }
+ },
+ "227_9497.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1913,
+     974,
+     2337,
+     1631
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2111,
+     1862,
+     2220,
+     1962
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2539,
+     2138,
+     2648,
+     2238
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3167,
+     2233,
+     3277,
+     2333
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2142,
+     1207,
+     2251,
+     1307
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3077,
+     858,
+     3186,
+     957
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3467,
+     1766,
+     3576,
+     1866
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3500,
+     1181,
+     3610,
+     1281
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2463,
+     829,
+     2572,
+     929
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 1,
+   "pin": 8
+  }
+ },
+ "227_9498.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3139,
+     2300,
+     3198,
+     2352
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3384,
+     1885,
+     3444,
+     1937
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3433,
+     1338,
+     3492,
+     1390
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3056,
+     1073,
+     3115,
+     1125
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2494,
+     1034,
+     2554,
+     1086
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2222,
+     1409,
+     2281,
+     1461
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2551,
+     2297,
+     2611,
+     2349
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2166,
+     1990,
+     2225,
+     2043
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8
+  }
+ },
+ "227_9499.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1861,
+     927,
+     1950,
+     1011
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2744,
+     464,
+     2833,
+     549
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3654,
+     944,
+     3743,
+     1029
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3332,
+     647,
+     3421,
+     731
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2021,
+     749,
+     2110,
+     834
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 5
+  }
+ },
+ "227_9500.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1855,
+     702,
+     1997,
+     854
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1397,
+     1684,
+     1539,
+     1836
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1921,
+     2365,
+     2062,
+     2517
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2518,
+     233,
+     2659,
+     385
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3492,
+     537,
+     3633,
+     689
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3633,
+     2229,
+     3775,
+     2380
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2932,
+     2773,
+     3073,
+     2925
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3957,
+     1276,
+     4099,
+     1428
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1210,
+     176,
+     2047,
+     1129
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 1
+  }
+ },
+ "227_9501.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1361,
+     2898,
+     1482,
+     3027
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4074,
+     2016,
+     4195,
+     2146
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3873,
+     3148,
+     4052,
+     3320
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3365,
+     1230,
+     3544,
+     1402
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2299,
+     1152,
+     2478,
+     1323
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1644,
+     1753,
+     1823,
+     1924
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2029,
+     3543,
+     2150,
+     3673
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 7
+  }
+ },
+ "227_9502.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2052,
+     493,
+     2173,
+     623
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2604,
+     266,
+     2717,
+     383
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3628,
+     178,
+     3741,
+     295
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1784,
+     1528,
+     1897,
+     1646
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4328,
+     719,
+     4441,
+     837
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4389,
+     1359,
+     4502,
+     1476
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2485,
+     1911,
+     2597,
+     2029
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1405,
+     151,
+     2245,
+     1392
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 7,
+   "bolt": 1
+  }
+ },
+ "227_9503.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2326,
+     985,
+     2424,
+     1129
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4652,
+     852,
+     4750,
+     959
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     5155,
+     1420,
+     5253,
+     1527
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2701,
+     642,
+     2799,
+     760
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     5020,
+     1101,
+     5568,
+     2211
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1711,
+     597,
+     2491,
+     1887
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3337,
+     2270,
+     4084,
+     2752
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3187,
+     0,
+     4394,
+     751
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4487,
+     755,
+     4934,
+     1187
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2567,
+     580,
+     3014,
+     1012
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4667,
+     2320,
+     5114,
+     2602
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4950,
+     2436,
+     5048,
+     2543
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3821,
+     348,
+     3919,
+     466
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 6,
+   "bolt": 7
+  }
+ },
+ "227_9504.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2137,
+     1122,
+     2258,
+     1238
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4084,
+     1238,
+     4205,
+     1354
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3258,
+     783,
+     3379,
+     935
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1792,
+     1574,
+     1913,
+     1725
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4484,
+     1999,
+     4605,
+     2114
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4276,
+     3057,
+     4397,
+     3172
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1840,
+     2906,
+     1961,
+     3021
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1085,
+     1113,
+     1990,
+     2267
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4323,
+     1540,
+     5367,
+     2694
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 7,
+   "bolt": 2
+  }
+ },
+ "227_9505.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3497,
+     2522,
+     3607,
+     2631
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2462,
+     3551,
+     2597,
+     3657
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     129,
+     2926,
+     240,
+     3035
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     85,
+     2038,
+     149,
+     2118
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     0,
+     2736,
+     608,
+     3712
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2840,
+     691,
+     3987,
+     1843
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     249,
+     264,
+     1440,
+     1465
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1003,
+     930,
+     1130,
+     1068
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2060,
+     836,
+     2177,
+     938
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3026,
+     1415,
+     3153,
+     1525
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 7,
+   "bearing": 3
+  }
+ },
+ "227_9506.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3808,
+     1460,
+     3881,
+     1539
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3299,
+     813,
+     3372,
+     893
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1945,
+     1319,
+     2018,
+     1399
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2030,
+     1999,
+     2103,
+     2079
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2512,
+     2722,
+     2585,
+     2801
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2671,
+     832,
+     2744,
+     911
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3226,
+     2627,
+     3299,
+     2707
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3884,
+     2155,
+     3957,
+     2234
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1664,
+     1859,
+     2222,
+     2608
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 1
+  }
+ },
+ "227_9507.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2037,
+     2155,
+     2470,
+     2739
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3666,
+     1708,
+     4156,
+     2304
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2339,
+     1795,
+     2385,
+     1842
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3431,
+     1521,
+     3477,
+     1568
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3769,
+     2067,
+     3815,
+     2114
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2921,
+     1498,
+     2985,
+     1546
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3748,
+     2619,
+     3812,
+     2666
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3192,
+     2930,
+     3256,
+     2977
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2641,
+     2951,
+     2706,
+     2998
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2333,
+     2334,
+     2397,
+     2382
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 2,
+   "pin": 8
+  }
+ },
+ "227_9508.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3576,
+     1092,
+     3641,
+     1168
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3840,
+     2379,
+     3906,
+     2455
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4144,
+     1430,
+     4209,
+     1507
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4359,
+     2030,
+     4424,
+     2106
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2581,
+     1996,
+     2646,
+     2073
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2419,
+     1638,
+     2484,
+     1715
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4036,
+     1022,
+     4685,
+     1699
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2516,
+     687,
+     3229,
+     1435
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3029,
+     1106,
+     3094,
+     1182
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 7,
+   "bolt": 2
+  }
+ },
+ "227_9509.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2725,
+     1020,
+     2788,
+     1089
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1284,
+     1264,
+     1855,
+     2036
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3213,
+     1643,
+     3753,
+     2363
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1726,
+     1561,
+     1789,
+     1630
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3249,
+     1290,
+     3312,
+     1358
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3299,
+     1988,
+     3363,
+     2057
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3067,
+     2557,
+     3131,
+     2626
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2314,
+     2579,
+     2377,
+     2647
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1752,
+     2320,
+     1816,
+     2389
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1991,
+     1089,
+     2054,
+     1157
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 2
+  }
+ },
+ "227_9510.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3985,
+     613,
+     5368,
+     1958
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     5,
+     2075,
+     936,
+     3255
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2898,
+     906,
+     3466,
+     1403
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4693,
+     2296,
+     5332,
+     2925
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1984,
+     794,
+     2144,
+     986
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1119,
+     223,
+     2436,
+     1518
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3105,
+     963,
+     3264,
+     1155
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4285,
+     1192,
+     4444,
+     1383
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     5036,
+     2330,
+     5187,
+     2457
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 5,
+   "pin": 4
+  }
+ },
+ "227_9511.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2608,
+     1172,
+     3138,
+     1680
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1720,
+     1101,
+     1889,
+     1292
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2788,
+     1224,
+     2958,
+     1377
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3985,
+     1505,
+     4154,
+     1658
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4723,
+     2560,
+     4892,
+     2713
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     450,
+     1926,
+     619,
+     2079
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     851,
+     511,
+     2157,
+     1811
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3668,
+     888,
+     4974,
+     2199
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 3,
+   "pin": 5
+  }
+ },
+ "227_9512.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2888,
+     1322,
+     3359,
+     1851
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4794,
+     2697,
+     5468,
+     3371
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     6,
+     2664,
+     1103,
+     3699
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3942,
+     963,
+     5314,
+     2380
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1081,
+     591,
+     2453,
+     2007
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     702,
+     2105,
+     841,
+     2237
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     5090,
+     2743,
+     5229,
+     2876
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3060,
+     1333,
+     3224,
+     1504
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4318,
+     1630,
+     4483,
+     1801
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2004,
+     1235,
+     2169,
+     1406
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 5,
+   "pin": 5
+  }
+ },
+ "227_9513.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1995,
+     1659,
+     2097,
+     1769
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     43,
+     1346,
+     1393,
+     2869
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3327,
+     1449,
+     3466,
+     1572
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4468,
+     2055,
+     4607,
+     2178
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1076,
+     1872,
+     1232,
+     2023
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     248,
+     3319,
+     403,
+     3470
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 5,
+   "bolt": 1
+  }
+ },
+ "227_9514.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3817,
+     1841,
+     4367,
+     2307
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1338,
+     1441,
+     1892,
+     1916
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4157,
+     2479,
+     5568,
+     3339
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4054,
+     1839,
+     4184,
+     2026
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     584,
+     1726,
+     714,
+     1913
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1513,
+     1460,
+     1642,
+     1647
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2899,
+     1239,
+     3028,
+     1426
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2352,
+     678,
+     3633,
+     1707
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     0,
+     1278,
+     921,
+     2450
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 5,
+   "pin": 4
+  }
+ },
+ "227_9515.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2191,
+     2268,
+     2332,
+     2405
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3269,
+     2384,
+     3410,
+     2521
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     46,
+     3438,
+     187,
+     3574
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4025,
+     3216,
+     4166,
+     3352
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     17,
+     3409,
+     468,
+     3683
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2020,
+     2248,
+     2427,
+     2677
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     377,
+     2019,
+     1498,
+     3034
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2902,
+     1805,
+     4023,
+     2821
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3786,
+     3188,
+     4331,
+     3711
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1171,
+     2387,
+     1312,
+     2523
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 5,
+   "bolt": 5
+  }
+ },
+ "227_9516.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2523,
+     1615,
+     2674,
+     1765
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3383,
+     2482,
+     3534,
+     2632
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     5,
+     1443,
+     549,
+     2296
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2262,
+     1067,
+     3509,
+     2109
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3202,
+     2491,
+     3740,
+     3046
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1153,
+     1574,
+     1600,
+     1966
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     137,
+     1647,
+     288,
+     1798
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1345,
+     1540,
+     1495,
+     1690
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 4,
+   "bolt": 4
+  }
+ },
+ "227_9517.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2080,
+     2005,
+     2235,
+     2177
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     754,
+     2562,
+     909,
+     2735
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1469,
+     1444,
+     2618,
+     2482
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3919,
+     2193,
+     5151,
+     3442
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     21,
+     3151,
+     570,
+     3712
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4083,
+     2787,
+     4238,
+     2959
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     581,
+     2552,
+     1025,
+     3051
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3051,
+     2163,
+     3495,
+     2662
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3134,
+     2205,
+     3289,
+     2377
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 4,
+   "bolt": 5
+  }
+ },
+ "227_9518.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1886,
+     861,
+     2081,
+     938
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1114,
+     1427,
+     1242,
+     1505
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1220,
+     2195,
+     1348,
+     2273
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1054,
+     1355,
+     1368,
+     1625
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3146,
+     1016,
+     3775,
+     1752
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     697,
+     2067,
+     1391,
+     2843
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1701,
+     2861,
+     2062,
+     3200
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2413,
+     2804,
+     3129,
+     3433
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1798,
+     3017,
+     1927,
+     3095
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2544,
+     2888,
+     2672,
+     2966
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3356,
+     2313,
+     3484,
+     2391
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3241,
+     1547,
+     3369,
+     1625
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2669,
+     818,
+     2798,
+     896
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1425,
+     383,
+     2227,
+     1051
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2575,
+     732,
+     2867,
+     1028
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3219,
+     2207,
+     3602,
+     2460
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 8
+  }
+ },
+ "227_9519.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4101,
+     274,
+     4646,
+     1005
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2812,
+     1793,
+     3370,
+     2165
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4518,
+     1704,
+     5098,
+     2076
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2465,
+     2682,
+     2764,
+     2941
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3034,
+     729,
+     3128,
+     822
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2661,
+     1416,
+     2756,
+     1508
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3997,
+     2682,
+     4309,
+     2993
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4668,
+     1185,
+     4979,
+     1496
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4596,
+     1759,
+     4691,
+     1851
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4770,
+     1212,
+     4865,
+     1304
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     4285,
+     699,
+     4379,
+     791
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3536,
+     564,
+     3630,
+     656
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2195,
+     1496,
+     2316,
+     1717
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2528,
+     1436,
+     2827,
+     1639
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3361,
+     519,
+     3673,
+     830
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2617,
+     359,
+     3162,
+     1090
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 10,
+   "pin": 6
+  }
+ },
+ "227_9520.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1918,
+     1038,
+     1996,
+     1123
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2535,
+     811,
+     2844,
+     1147
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1795,
+     2956,
+     2092,
+     3234
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3219,
+     2263,
+     3516,
+     2540
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1097,
+     1501,
+     1394,
+     1778
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1449,
+     610,
+     2234,
+     1208
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3123,
+     1196,
+     3760,
+     1852
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     810,
+     2202,
+     1462,
+     2937
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2439,
+     2851,
+     3092,
+     3472
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2660,
+     928,
+     2738,
+     1014
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3207,
+     1628,
+     3285,
+     1714
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3336,
+     2362,
+     3414,
+     2448
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2598,
+     2948,
+     2676,
+     3034
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1890,
+     3074,
+     1968,
+     3159
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1296,
+     2323,
+     1374,
+     2409
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1206,
+     1581,
+     1285,
+     1667
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 8
+  }
+ },
+ "227_9521.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1730,
+     1522,
+     1894,
+     1671
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2014,
+     904,
+     2100,
+     972
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2239,
+     734,
+     2325,
+     802
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2008,
+     1416,
+     2094,
+     1459
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3102,
+     894,
+     3189,
+     962
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3152,
+     1227,
+     3238,
+     1295
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2738,
+     679,
+     2825,
+     746
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2297,
+     1497,
+     2535,
+     1632
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2000,
+     1409,
+     2129,
+     1491
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3143,
+     1139,
+     3412,
+     1401
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2627,
+     475,
+     2967,
+     842
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1785,
+     780,
+     2125,
+     1147
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2191,
+     713,
+     2355,
+     862
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3078,
+     873,
+     3242,
+     1049
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3024,
+     1784,
+     3188,
+     1932
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2258,
+     2046,
+     2422,
+     2194
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 10,
+   "pin": 6
+  }
+ },
+ "227_9522.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2760,
+     674,
+     3115,
+     955
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3855,
+     1223,
+     4021,
+     1392
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3482,
+     1368,
+     3648,
+     1537
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2615,
+     1337,
+     2781,
+     1507
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2035,
+     1073,
+     2140,
+     1286
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3329,
+     911,
+     3406,
+     970
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2979,
+     827,
+     3056,
+     885
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     557,
+     561,
+     637,
+     632
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     549,
+     558,
+     1203,
+     750
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1023,
+     531,
+     1130,
+     605
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1130,
+     660,
+     1238,
+     734
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     623,
+     705,
+     731,
+     779
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3256,
+     919,
+     3466,
+     1008
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3631,
+     788,
+     3841,
+     948
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 11,
+   "pin": 2,
+   "plate": 1
+  }
+ },
+ "227_9523.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3337,
+     1170,
+     3457,
+     1371
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2438,
+     1588,
+     2675,
+     1804
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1616,
+     928,
+     1687,
+     1027
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1938,
+     898,
+     2009,
+     996
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2450,
+     793,
+     2521,
+     891
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2330,
+     654,
+     2687,
+     1049
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1342,
+     817,
+     1733,
+     1141
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1846,
+     899,
+     2062,
+     1100
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1434,
+     1650,
+     1671,
+     1866
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 6,
+   "pin": 3
+  }
+ },
+ "227_9524.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2634,
+     514,
+     3102,
+     979
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1869,
+     756,
+     1931,
+     842
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2257,
+     728,
+     2319,
+     814
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2748,
+     728,
+     2809,
+     814
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3034,
+     1015,
+     3096,
+     1076
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1551,
+     585,
+     2020,
+     1050
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2220,
+     714,
+     2362,
+     921
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3418,
+     1382,
+     3542,
+     1613
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2338,
+     1709,
+     2550,
+     1887
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1289,
+     1616,
+     1462,
+     1813
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 6,
+   "pin": 4
+  }
+ },
+ "227_9525.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2306,
+     1186,
+     2346,
+     1278
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2429,
+     740,
+     2469,
+     833
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3022,
+     590,
+     3075,
+     683
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3482,
+     747,
+     3535,
+     840
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3632,
+     1329,
+     3685,
+     1421
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3496,
+     1803,
+     3550,
+     1896
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2900,
+     1935,
+     2954,
+     2028
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2029,
+     1070,
+     2390,
+     1560
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2415,
+     1807,
+     2469,
+     1899
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3609,
+     1078,
+     3970,
+     1568
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 2
+  }
+ },
+ "227_9526.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1067,
+     2000,
+     1147,
+     2082
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     806,
+     2693,
+     886,
+     2776
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1658,
+     3833,
+     1738,
+     3916
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     973,
+     3612,
+     1053,
+     3694
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2550,
+     3668,
+     2629,
+     3751
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2777,
+     2977,
+     2857,
+     3060
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2615,
+     2103,
+     2694,
+     2186
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     1956,
+     1849,
+     2036,
+     1932
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2690,
+     2572,
+     3369,
+     3416
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     332,
+     2394,
+     969,
+     3239
+    ]
+   }
+  ],
+  "part_counts": {
+   "pin": 8,
+   "bolt": 2
+  }
+ },
+ "227_9527.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1546,
+     3265,
+     1880,
+     3604
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1306,
+     1239,
+     1436,
+     1362
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2016,
+     1378,
+     2147,
+     1502
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     979,
+     2067,
+     1110,
+     2190
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1630,
+     2199,
+     1760,
+     2323
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2822,
+     3979,
+     2952,
+     4103
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2464,
+     3853,
+     2594,
+     3977
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2052,
+     3834,
+     2182,
+     3957
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2572,
+     3179,
+     2702,
+     3302
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2932,
+     3209,
+     3062,
+     3333
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1559,
+     1225,
+     1894,
+     1525
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1197,
+     2051,
+     1532,
+     2352
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2193,
+     3059,
+     2323,
+     3182
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1980,
+     3444,
+     2097,
+     3548
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1355,
+     3324,
+     1471,
+     3428
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     719,
+     3080,
+     1153,
+     3504
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 3,
+   "bolt": 12,
+   "plate": 1
+  }
+ },
+ "227_9528.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2326,
+     1813,
+     2662,
+     2138
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1431,
+     1979,
+     1768,
+     2303
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     0,
+     2918,
+     305,
+     3705
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1307,
+     2603,
+     2126,
+     3389
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     341,
+     3016,
+     678,
+     3340
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     618,
+     3993,
+     954,
+     4317
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1634,
+     3736,
+     1971,
+     4060
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2595,
+     3705,
+     2932,
+     4030
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     437,
+     2006,
+     774,
+     2331
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 7,
+   "bearing": 2
+  }
+ },
+ "227_9529.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2446,
+     2844,
+     3035,
+     3381
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     963,
+     2808,
+     1844,
+     3584
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1568,
+     0,
+     2158,
+     150
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1383,
+     983,
+     1972,
+     1468
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2082,
+     3014,
+     2328,
+     3245
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3177,
+     2970,
+     3390,
+     3180
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3429,
+     2237,
+     3642,
+     2447
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3534,
+     3567,
+     3712,
+     3778
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2100,
+     1056,
+     2346,
+     1287
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     998,
+     1119,
+     1244,
+     1350
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3412,
+     2180,
+     3712,
+     3890
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 3,
+   "plate": 2,
+   "bolt": 6
+  }
+ },
+ "227_9530.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     947,
+     1161,
+     1239,
+     1460
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1116,
+     5272,
+     1923,
+     5568
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2820,
+     5115,
+     3537,
+     5567
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     851,
+     3292,
+     1142,
+     3591
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2368,
+     3121,
+     2659,
+     3419
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2535,
+     1058,
+     2826,
+     1357
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1266,
+     2948,
+     2224,
+     3774
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1442,
+     906,
+     2401,
+     1687
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 4,
+   "plate": 1,
+   "bearing": 3
+  }
+ },
+ "227_9531.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1251,
+     4770,
+     2303,
+     5547
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2407,
+     2621,
+     2686,
+     2920
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     762,
+     5295,
+     1041,
+     5567
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2358,
+     5035,
+     2637,
+     5334
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     678,
+     2946,
+     957,
+     3244
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1131,
+     2450,
+     2233,
+     3397
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 2,
+   "bolt": 4
+  }
+ },
+ "227_9532.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     2186,
+     3004,
+     3225,
+     4068
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2229,
+     3011,
+     2391,
+     3192
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2644,
+     3082,
+     2806,
+     3264
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3027,
+     3043,
+     3189,
+     3225
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3046,
+     3867,
+     3209,
+     4049
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1216,
+     1152,
+     1623,
+     1485
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     997,
+     2120,
+     1407,
+     2476
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1582,
+     3331,
+     1987,
+     3692
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     756,
+     2185,
+     918,
+     2324
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1756,
+     1267,
+     1891,
+     1403
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     961,
+     1223,
+     1095,
+     1359
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2650,
+     3828,
+     2813,
+     4010
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2235,
+     3874,
+     2397,
+     4055
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1390,
+     3430,
+     1516,
+     3600
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2064,
+     3462,
+     2201,
+     3604
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1491,
+     2221,
+     1625,
+     2357
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2514,
+     3335,
+     2968,
+     3744
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     707,
+     3273,
+     1135,
+     3728
+    ]
+   }
+  ],
+  "part_counts": {
+   "plate": 1,
+   "bolt": 12,
+   "bearing": 5
+  }
+ },
+ "227_9533.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2640,
+     1479,
+     3709,
+     2450
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2254,
+     1839,
+     2563,
+     2104
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3773,
+     1870,
+     4082,
+     2136
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     5424,
+     0,
+     5568,
+     245
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4990,
+     0,
+     5299,
+     250
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 1,
+   "bolt": 4
+  }
+ },
+ "227_9534.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     811,
+     1726,
+     1122,
+     1916
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2,
+     1168,
+     313,
+     1358
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     618,
+     2505,
+     774,
+     2651
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     2338,
+     1094,
+     3973,
+     2708
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4365,
+     3240,
+     4542,
+     3422
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4652,
+     3227,
+     4830,
+     3409
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     24,
+     1977,
+     586,
+     2587
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2213,
+     895,
+     2507,
+     1172
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3874,
+     960,
+     4168,
+     1237
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3796,
+     2647,
+     4090,
+     2924
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2126,
+     2539,
+     2420,
+     2816
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 9,
+   "plate": 1,
+   "bearing": 1
+  }
+ },
+ "227_9535.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1843,
+     2122,
+     2102,
+     2355
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     454,
+     2264,
+     733,
+     2466
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1580,
+     2670,
+     1839,
+     2871
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2595,
+     3183,
+     2861,
+     3462
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1044,
+     3857,
+     1304,
+     4059
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1135,
+     178,
+     1460,
+     528
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1051,
+     2998,
+     1830,
+     3731
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3342,
+     0,
+     3602,
+     135
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 7,
+   "bearing": 1
+  }
+ },
+ "227_9473.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3294,
+     1362,
+     3419,
+     1488
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4256,
+     790,
+     4381,
+     917
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4407,
+     1520,
+     4532,
+     1647
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1922,
+     2516,
+     2394,
+     2905
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1939,
+     1773,
+     2285,
+     2082
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3132,
+     959,
+     3478,
+     1268
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     4190,
+     1038,
+     4599,
+     1374
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1575,
+     2233,
+     2733,
+     3314
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1883,
+     1036,
+     2279,
+     1333
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1618,
+     3140,
+     1743,
+     3267
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1662,
+     2651,
+     1787,
+     2778
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2488,
+     2595,
+     2613,
+     2707
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2060,
+     2209,
+     2185,
+     2321
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2525,
+     2178,
+     2650,
+     2290
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1595,
+     2228,
+     1720,
+     2354
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2031,
+     1533,
+     2156,
+     1645
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2591,
+     3074,
+     2716,
+     3201
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3214,
+     730,
+     3339,
+     856
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 12,
+   "bearing": 4,
+   "plate": 2
+  }
+ },
+ "227_9474.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1461,
+     1942,
+     1596,
+     2067
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4233,
+     703,
+     4369,
+     817
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4447,
+     1315,
+     4582,
+     1438
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3116,
+     858,
+     3467,
+     1113
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     4195,
+     923,
+     4604,
+     1228
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1806,
+     1059,
+     2251,
+     1284
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1865,
+     1660,
+     2216,
+     1914
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1817,
+     2196,
+     2241,
+     2557
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3176,
+     655,
+     3311,
+     766
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3280,
+     1170,
+     3415,
+     1290
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1416,
+     2793,
+     1588,
+     2945
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2513,
+     2736,
+     2685,
+     2887
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2418,
+     2257,
+     2562,
+     2386
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1509,
+     2306,
+     1653,
+     2436
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2453,
+     1892,
+     2597,
+     2022
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1956,
+     1422,
+     2092,
+     1533
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 11,
+   "bearing": 4,
+   "plate": 1
+  }
+ },
+ "227_9475.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3356,
+     1034,
+     3773,
+     1244
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1667,
+     731,
+     2513,
+     1413
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1942,
+     871,
+     2206,
+     1111
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3340,
+     1526,
+     3653,
+     1799
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3242,
+     2303,
+     3621,
+     2639
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3757,
+     1561,
+     3872,
+     1684
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3101,
+     1615,
+     3216,
+     1738
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3066,
+     1069,
+     3181,
+     1166
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2497,
+     1127,
+     2603,
+     1224
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1679,
+     1265,
+     1785,
+     1362
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2028,
+     1149,
+     2134,
+     1246
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2383,
+     1198,
+     2489,
+     1295
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2370,
+     730,
+     2476,
+     827
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2025,
+     746,
+     2131,
+     844
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1700,
+     791,
+     1806,
+     889
+    ]
+   }
+  ],
+  "part_counts": {
+   "plate": 2,
+   "bearing": 3,
+   "bolt": 10
+  }
+ },
+ "227_9476.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2073,
+     717,
+     2209,
+     825
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3137,
+     366,
+     3257,
+     1077
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3409,
+     1568,
+     3745,
+     1764
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2131,
+     898,
+     2397,
+     1109
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2790,
+     1300,
+     3056,
+     1511
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2859,
+     1932,
+     3183,
+     2200
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2252,
+     2572,
+     2653,
+     2898
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2740,
+     2795,
+     2873,
+     2919
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2021,
+     2532,
+     2154,
+     2656
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3243,
+     2090,
+     3376,
+     2214
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2647,
+     1896,
+     2780,
+     2020
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3117,
+     1423,
+     3241,
+     1523
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2610,
+     1276,
+     2734,
+     1376
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1773,
+     1106,
+     1909,
+     1215
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2368,
+     1294,
+     2504,
+     1403
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2083,
+     1127,
+     2218,
+     1236
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2331,
+     791,
+     2467,
+     899
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2644,
+     876,
+     2780,
+     984
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 13,
+   "plate": 1,
+   "bearing": 4
+  }
+ },
+ "227_9477.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3686,
+     691,
+     3858,
+     815
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2932,
+     525,
+     3105,
+     650
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3057,
+     734,
+     3229,
+     858
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3473,
+     2096,
+     4075,
+     2608
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     2881,
+     473,
+     3995,
+     1248
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3427,
+     1465,
+     3823,
+     1797
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3242,
+     620,
+     3638,
+     951
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2364,
+     1885,
+     2829,
+     2264
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1228,
+     1829,
+     1693,
+     2208
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1404,
+     2292,
+     1577,
+     2438
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1340,
+     1588,
+     1534,
+     1747
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2556,
+     2287,
+     2749,
+     2447
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2427,
+     1668,
+     2620,
+     1827
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3051,
+     1052,
+     3244,
+     1211
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3589,
+     1827,
+     3782,
+     1986
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3795,
+     1000,
+     3989,
+     1160
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3640,
+     497,
+     3813,
+     609
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3445,
+     1302,
+     3617,
+     1426
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 12,
+   "plate": 2,
+   "bearing": 4
+  }
+ },
+ "227_9481.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2598,
+     1899,
+     2839,
+     2145
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1383,
+     4016,
+     2369,
+     4830
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1152,
+     594,
+     2959,
+     2193
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1596,
+     2604,
+     2343,
+     3254
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1577,
+     886,
+     2511,
+     1663
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2612,
+     614,
+     2854,
+     860
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2515,
+     1174,
+     2756,
+     1420
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1252,
+     1129,
+     1493,
+     1375
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1142,
+     1866,
+     1383,
+     2112
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1247,
+     552,
+     1488,
+     798
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1841,
+     2225,
+     2082,
+     2471
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 7,
+   "plate": 2,
+   "bearing": 2
+  }
+ },
+ "227_9482.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     92,
+     3441,
+     785,
+     3711
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2318,
+     2435,
+     3052,
+     3048
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2312,
+     821,
+     3045,
+     1435
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1638,
+     301,
+     3651,
+     2075
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1859,
+     373,
+     2102,
+     618
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 3,
+   "plate": 1,
+   "bolt": 1
+  }
+ },
+ "227_9483.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2798,
+     1449,
+     3477,
+     2039
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     16,
+     2543,
+     457,
+     3419
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3901,
+     398,
+     4179,
+     675
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2112,
+     360,
+     2390,
+     636
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2977,
+     2321,
+     3257,
+     2584
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2981,
+     924,
+     3244,
+     1164
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1,
+     1943,
+     335,
+     2237
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 2,
+   "bolt": 5
+  }
+ },
+ "227_9484.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2254,
+     436,
+     2374,
+     569
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2823,
+     494,
+     2944,
+     627
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2202,
+     980,
+     2323,
+     1114
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2758,
+     1030,
+     2879,
+     1164
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2763,
+     1952,
+     2883,
+     2086
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3449,
+     1561,
+     3570,
+     1694
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4054,
+     1590,
+     4175,
+     1723
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3795,
+     1573,
+     3894,
+     1692
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3333,
+     1975,
+     3454,
+     2108
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     3478,
+     1571,
+     4356,
+     2292
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     2154,
+     1928,
+     2555,
+     2240
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3727,
+     1747,
+     4065,
+     1978
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2962,
+     1921,
+     3299,
+     2152
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2370,
+     962,
+     2708,
+     1187
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2446,
+     439,
+     2783,
+     651
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 9,
+   "plate": 2,
+   "bearing": 4
+  }
+ },
+ "227_9485.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3437,
+     2085,
+     3803,
+     2445
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1293,
+     1452,
+     1659,
+     1767
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 2
+  }
+ },
+ "227_9486.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4586,
+     1213,
+     4891,
+     1499
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2636,
+     1757,
+     2837,
+     1943
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1903,
+     1374,
+     2527,
+     1899
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     5148,
+     3146,
+     5349,
+     3358
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     5404,
+     2920,
+     5568,
+     3445
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1605,
+     1304,
+     1806,
+     1490
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 4,
+   "bearing": 2
+  }
+ },
+ "227_9487.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4036,
+     0,
+     4237,
+     118
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4329,
+     4,
+     4530,
+     122
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     0,
+     0,
+     212,
+     660
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2230,
+     1525,
+     2431,
+     1722
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3360,
+     1369,
+     3561,
+     1565
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     251,
+     454,
+     400,
+     615
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2565,
+     1211,
+     3278,
+     1883
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 5,
+   "bearing": 2
+  }
+ },
+ "227_9488.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4653,
+     1171,
+     4794,
+     1289
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4455,
+     1206,
+     4636,
+     1352
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2693,
+     366,
+     2893,
+     561
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3623,
+     160,
+     3822,
+     355
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4018,
+     974,
+     4217,
+     1169
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3027,
+     1230,
+     3226,
+     1425
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4316,
+     2184,
+     4457,
+     2318
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3633,
+     2407,
+     3774,
+     2540
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1849,
+     1878,
+     1974,
+     2007
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1083,
+     1706,
+     1209,
+     1845
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3853,
+     2143,
+     4301,
+     2569
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     1253,
+     1618,
+     1813,
+     2066
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 10,
+   "bearing": 2
+  }
+ },
+ "227_9489.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     2134,
+     670,
+     2438,
+     903
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1581,
+     1391,
+     1757,
+     1553
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2522,
+     1456,
+     2698,
+     1618
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3662,
+     1694,
+     3773,
+     1801
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     4282,
+     2053,
+     4383,
+     2149
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1955,
+     698,
+     2063,
+     801
+    ]
+   },
+   {
+    "class": 1,
+    "class_name": "bearing",
+    "bbox": [
+     3812,
+     1765,
+     4205,
+     2092
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     1439,
+     1414,
+     2707,
+     2526
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1359,
+     1169,
+     1478,
+     1285
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1227,
+     1176,
+     1337,
+     1282
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2524,
+     735,
+     2633,
+     838
+    ]
+   }
+  ],
+  "part_counts": {
+   "bearing": 2,
+   "bolt": 8,
+   "plate": 1
+  }
+ },
+ "227_9490.JPG": {
+  "shape": [
+   5568,
+   3712
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2797,
+     1304,
+     2897,
+     1412
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     825,
+     884,
+     1011,
+     1069
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2033,
+     730,
+     2178,
+     990
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1803,
+     977,
+     1989,
+     1162
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     1923,
+     1724,
+     2109,
+     1909
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     870,
+     1667,
+     1056,
+     1852
+    ]
+   },
+   {
+    "class": 2,
+    "class_name": "plate",
+    "bbox": [
+     864,
+     966,
+     2035,
+     1895
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 6,
+   "plate": 1
+  }
+ },
+ "227_9491.JPG": {
+  "shape": [
+   3712,
+   5568
+  ],
+  "parts": [
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     2204,
+     1244,
+     2488,
+     1686
+    ]
+   },
+   {
+    "class": 0,
+    "class_name": "bolt",
+    "bbox": [
+     3423,
+     1321,
+     3740,
+     1680
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2397,
+     1398,
+     2457,
+     1458
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2523,
+     1070,
+     2583,
+     1129
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2993,
+     959,
+     3052,
+     1018
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3469,
+     1511,
+     3529,
+     1571
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3339,
+     1100,
+     3399,
+     1159
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     3358,
+     1916,
+     3417,
+     1975
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2885,
+     2007,
+     2944,
+     2066
+    ]
+   },
+   {
+    "class": 3,
+    "class_name": "pin",
+    "bbox": [
+     2477,
+     1882,
+     2536,
+     1942
+    ]
+   }
+  ],
+  "part_counts": {
+   "bolt": 2,
+   "pin": 8
+  }
+ }
+}
