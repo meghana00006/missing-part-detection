@@ -148,6 +148,126 @@ st.markdown("""
     .welcome-icon { font-size: 5rem; margin-bottom: 1rem; }
     .welcome-title { font-size: 2rem; color: #f1f5f9; font-weight: 700; margin-bottom: 1rem; }
     .welcome-text { color: #94a3b8; max-width: 600px; margin: 0 auto; line-height: 1.6; }
+
+    /* ==================== TAB BUTTON ENHANCEMENTS ==================== */
+    /* Style the tab list container */
+    div[data-baseweb="tab-list"] {
+        gap: 12px;
+        background: #1e293b;
+        padding: 10px;
+        border-radius: 16px;
+        border: 1px solid #334155;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Style each tab button */
+    button[data-baseweb="tab"] {
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        border: 1px solid #334155;
+        border-radius: 12px;
+        padding: 12px 28px;
+        color: #94a3b8 !important;
+        font-weight: 600;
+        font-size: 1rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+        letter-spacing: 0.3px;
+    }
+
+    /* Hover effect for tabs */
+    button[data-baseweb="tab"]:hover {
+        color: #ffffff !important;
+        border-color: #60a5fa;
+        background: linear-gradient(135deg, #1e3a5f 0%, #1e293b 100%);
+        transform: translateY(-3px) scale(1.03);
+        box-shadow: 0 8px 25px rgba(96, 165, 250, 0.35),
+                    0 0 20px rgba(96, 165, 250, 0.15);
+    }
+
+    /* Active/selected tab */
+    button[data-baseweb="tab"][aria-selected="true"] {
+        background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        color: #ffffff !important;
+        border-color: #a78bfa;
+        box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+    }
+
+    /* Active tab hover pulse */
+    button[data-baseweb="tab"][aria-selected="true"]:hover {
+        background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+        box-shadow: 0 10px 30px rgba(139, 92, 246, 0.55),
+                    0 0 25px rgba(139, 92, 246, 0.3);
+        transform: translateY(-4px) scale(1.03);
+    }
+
+    /* Remove default tab highlight bar */
+    div[data-baseweb="tab-highlight"] {
+        display: none;
+    }
+
+    /* Remove default tab border */
+    div[data-baseweb="tab-border"] {
+        display: none;
+    }
+
+    /* ==================== PRIMARY BUTTON (Save to Blockchain) ==================== */
+    div.stButton > button[kind="secondary"],
+    div.stButton > button {
+        background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        color: white !important;
+        border: 1px solid #a78bfa;
+        border-radius: 12px;
+        padding: 14px 32px;
+        font-weight: 700;
+        font-size: 1.05rem;
+        letter-spacing: 0.4px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+        position: relative;
+        overflow: hidden;
+        width: auto;
+    }
+
+    /* Shimmer sweep on hover */
+    div.stButton > button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+        transition: left 0.6s ease;
+    }
+
+    div.stButton > button:hover::before {
+        left: 100%;
+    }
+
+    div.stButton > button:hover {
+        background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+        transform: translateY(-3px) scale(1.02);
+        box-shadow: 0 10px 28px rgba(139, 92, 246, 0.5),
+                    0 0 20px rgba(139, 92, 246, 0.25);
+        border-color: #c4b5fd;
+        color: white !important;
+    }
+
+    div.stButton > button:active {
+        transform: translateY(-1px) scale(0.99);
+        box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+    }
+
+    /* Focus ring */
+    div.stButton > button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.4),
+                    0 4px 15px rgba(59, 130, 246, 0.3);
+    }
 </style>
 """, unsafe_allow_html=True)
 
