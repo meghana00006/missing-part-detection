@@ -23,7 +23,7 @@ CONTRACT_INFO_PATH = BASE_DIR / "blockchain" / "contract_info.json"
 
 # --- LOCAL KEYS ---
 ALCHEMY_URL = st.secrets.get("ALCHEMY_URL", "https://eth-sepolia.g.alchemy.com/v2/alch_aSI0qQQuXeEt3nJFG2KNh")
-PRIVATE_KEY = st.secrets.get("PRIVATE_KEY", "0x894d1ba595847f7562c4ca324a285c85655e3a3ca4de74e593c...") # <--- PUT YOUR FULL KEY HERE IF RUNNING LOCALLY
+PRIVATE_KEY = st.secrets.get("PRIVATE_KEY", "0x894d1ba595847f7562c4ca324a285c85655e3a3ca4de74e593c...") 
 
 CLASS_NAMES = {0: "bolt", 1: "bearing", 2: "plate", 3: "pin"}
 CLASS_COLORS_BGR = {
@@ -133,7 +133,7 @@ st.markdown("""
 <style>
     .stApp { background-color: #0e1117; }
     
-    /* ==================== HEADER & SUBTITLE ==================== */
+    /* HEADER & SUBTITLE */
     .main-header { 
         font-size: 3.5rem; 
         text-align: center; 
@@ -142,97 +142,85 @@ st.markdown("""
         background: -webkit-linear-gradient(45deg, #60a5fa, #a78bfa, #f472b6); 
         -webkit-background-clip: text; 
         -webkit-text-fill-color: transparent; 
-        letter-spacing: -1px;
     }
-    
     .sub-header { 
-        font-size: 1.3rem; 
+        font-size: 1.2rem; 
         text-align: center; 
         margin-bottom: 3rem; 
         font-weight: 500;
-        letter-spacing: 0.5px;
         background: linear-gradient(270deg, #94a3b8, #60a5fa, #a78bfa, #94a3b8);
         background-size: 300% 300%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: gradientShift 6s ease infinite;
     }
-
     @keyframes gradientShift {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
         100% { background-position: 0% 50%; }
     }
 
-    /* ==================== CUSTOM INTERACTIVE TABS ==================== */
-    /* Container for the radio buttons */
-    div[data-testid="stRadio"] > div[role="radiogroup"] {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-        margin-bottom: 2.5rem;
-        background: #1e293b;
-        padding: 15px;
-        border-radius: 20px;
-        border: 1px solid #334155;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    }
-
-    /* Hide the default radio circle */
-    div[data-testid="stRadio"] label > div:first-child {
+    /* ==================== SLIM INTERACTIVE TABS ==================== */
+    
+    /* 1. Hide the "Navigation" label */
+    div[data-testid="stRadio"] > label {
         display: none !important;
     }
 
-    /* Style the label container */
-    div[data-testid="stRadio"] label {
-        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-        border: 1px solid #334155;
-        border-radius: 12px;
-        padding: 12px 32px !important;
-        cursor: pointer;
-        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 !important;
+    /* 2. Force the radio group to be horizontal and centered */
+    div[data-testid="stRadio"] div[role="radiogroup"] {
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 15px !important;
+        margin-bottom: 2rem !important;
     }
 
-    /* Text inside the buttons */
-    div[data-testid="stRadio"] label p {
-        font-size: 1.15rem;
-        font-weight: 700;
+    /* 3. Completely hide the default radio circles */
+    div[data-testid="stRadio"] div[role="radiogroup"] label > div:first-child {
+        display: none !important;
+    }
+
+    /* 4. Style the button container (the label) */
+    div[data-testid="stRadio"] div[role="radiogroup"] label {
+        background-color: #1e293b !important;
+        border: 1px solid #334155 !important;
+        border-radius: 10px !important;
+        padding: 10px 30px !important;
+        transition: all 0.3s ease !important;
+        cursor: pointer !important;
+        margin: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    /* 5. Style the text inside */
+    div[data-testid="stRadio"] div[role="radiogroup"] label p {
         color: #94a3b8 !important;
+        font-size: 1.05rem !important;
+        font-weight: 600 !important;
         margin: 0 !important;
-        transition: all 0.3s ease;
+        transition: color 0.3s ease !important;
     }
 
-    /* HOVER EFFECT */
-    div[data-testid="stRadio"] label:hover {
-        transform: translateY(-4px) scale(1.02);
-        border-color: #60a5fa;
-        box-shadow: 0 10px 25px rgba(96, 165, 250, 0.3);
-        background: linear-gradient(135deg, #1e3a5f 0%, #1e293b 100%);
+    /* 6. Hover effects */
+    div[data-testid="stRadio"] div[role="radiogroup"] label:hover {
+        background-color: #0f172a !important;
+        border-color: #60a5fa !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 4px 12px rgba(96, 165, 250, 0.2) !important;
     }
-    div[data-testid="stRadio"] label:hover p {
+    div[data-testid="stRadio"] div[role="radiogroup"] label:hover p {
         color: #ffffff !important;
     }
 
-    /* ACTIVE / SELECTED EFFECT */
-    /* Streamlit adds this attribute to the checked radio button */
-    div[data-testid="stRadio"] label:has(input:checked) {
-        background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-        border: 1px solid #a78bfa;
-        transform: translateY(-2px);
-        box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5), inset 0 2px 5px rgba(255,255,255,0.2);
+    /* 7. Active/Checked state */
+    div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) {
+        background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%) !important;
+        border-color: #a78bfa !important;
+        box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4) !important;
     }
-    div[data-testid="stRadio"] label:has(input:checked) p {
+    div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) p {
         color: #ffffff !important;
-    }
-    /* Add a glowing pulse to active tab */
-    div[data-testid="stRadio"] label:has(input:checked):hover {
-        box-shadow: 0 12px 30px rgba(139, 92, 246, 0.7), inset 0 2px 5px rgba(255,255,255,0.2);
-        transform: translateY(-4px) scale(1.03);
     }
 
     /* ==================== CARDS & BOXES ==================== */
@@ -322,18 +310,16 @@ with st.sidebar:
         st.error("❌ **Refs Missing**")
 
 
-# ==================== CUSTOM TABS IMPLEMENTATION ====================
-# We use a radio button disguised as custom buttons, centered on the page
+# ==================== CUSTOM SLIM TABS ====================
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
+    # horizontal=True forces them side by side
     selected_tab = st.radio(
         "Navigation", 
         ["🔍 Inspection Dashboard", "📜 Immutable Audit Log"], 
         label_visibility="collapsed",
         horizontal=True
     )
-
-st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
 # ==================== TAB 1: INSPECTION DASHBOARD ====================
 if selected_tab == "🔍 Inspection Dashboard":
@@ -395,7 +381,6 @@ if selected_tab == "🔍 Inspection Dashboard":
                         missing_parts[part] = exp_count - det_count
                         total_missing += (exp_count - det_count)
                 
-                # Here is the margin of error (3)
                 if total_missing <= 3:
                     status = "PASS"
                     match_reason = f"Good match with reference: {best_ref}"
@@ -452,7 +437,6 @@ if selected_tab == "🔍 Inspection Dashboard":
                         st.code(f"Transaction Hash: {tx_hash}", language="text")
                         st.markdown(f"**[🔍 View Immutable Record on Sepolia Etherscan](https://sepolia.etherscan.io/tx/{tx_hash})**")
                         
-                        # Save to local session history
                         current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                         st.session_state.audit_history.insert(0, {
                             "timestamp": current_time,
@@ -482,23 +466,13 @@ elif selected_tab == "📜 Immutable Audit Log":
     if len(st.session_state.audit_history) == 0:
         st.info("No inspections recorded in this session yet. Go to the Dashboard, upload an image, and save it to the blockchain!")
     else:
-        # Create a clean DataFrame
         df = pd.DataFrame(st.session_state.audit_history)
-        
-        # Convert the timestamp string into actual datetime objects
         df['dt'] = pd.to_datetime(df['timestamp'])
-        
-        # Format them as clean strings
         df['Date'] = df['dt'].dt.strftime('%Y-%m-%d')
         df['Time'] = df['dt'].dt.strftime('%H:%M:%S')
-        
-        # Truncate the hash for display
         df['Short Hash'] = df['tx_hash'].apply(lambda x: f"{x[:10]}...{x[-6:]}")
-        
-        # Reorder columns for the UI
         df = df[['Date', 'Time', 'status', 'Short Hash', 'tx_hash']]
         
-        # Display the interactive table
         st.dataframe(
             df, 
             use_container_width=True, 
