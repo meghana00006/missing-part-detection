@@ -133,7 +133,7 @@ st.markdown("""
 <style>
     .stApp { background-color: #0e1117; }
     
-    /* HEADER & SUBTITLE */
+    /* ==================== HEADERS & TEXT ANIMATIONS ==================== */
     .main-header { 
         font-size: 3.5rem; 
         text-align: center; 
@@ -160,27 +160,30 @@ st.markdown("""
         100% { background-position: 0% 50%; }
     }
 
-    /* ==================== SLIM INTERACTIVE TABS ==================== */
-    
-    /* 1. Hide the "Navigation" label */
-    div[data-testid="stRadio"] > label {
-        display: none !important;
+    .card-title-gradient {
+        font-size: 1.3rem; 
+        font-weight: 700; 
+        margin-bottom: 1rem; 
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #475569;
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+        background-size: 300% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradientShift 4s linear infinite;
+        display: inline-block;
     }
 
-    /* 2. Force the radio group to be horizontal and centered */
+    /* ==================== SLIM HORIZONTAL TABS ==================== */
+    div[data-testid="stRadio"] > label { display: none !important; }
     div[data-testid="stRadio"] div[role="radiogroup"] {
         flex-direction: row !important;
         justify-content: center !important;
-        gap: 15px !important;
-        margin-bottom: 2rem !important;
+        gap: 20px !important;
+        margin-top: 1rem !important;
+        margin-bottom: 2.5rem !important;
     }
-
-    /* 3. Completely hide the default radio circles */
-    div[data-testid="stRadio"] div[role="radiogroup"] label > div:first-child {
-        display: none !important;
-    }
-
-    /* 4. Style the button container (the label) */
+    div[data-testid="stRadio"] div[role="radiogroup"] label > div:first-child { display: none !important; }
     div[data-testid="stRadio"] div[role="radiogroup"] label {
         background-color: #1e293b !important;
         border: 1px solid #334155 !important;
@@ -192,8 +195,6 @@ st.markdown("""
         display: flex !important;
         align-items: center !important;
     }
-
-    /* 5. Style the text inside */
     div[data-testid="stRadio"] div[role="radiogroup"] label p {
         color: #94a3b8 !important;
         font-size: 1.05rem !important;
@@ -201,43 +202,135 @@ st.markdown("""
         margin: 0 !important;
         transition: color 0.3s ease !important;
     }
-
-    /* 6. Hover effects */
     div[data-testid="stRadio"] div[role="radiogroup"] label:hover {
         background-color: #0f172a !important;
         border-color: #60a5fa !important;
         transform: translateY(-2px) !important;
         box-shadow: 0 4px 12px rgba(96, 165, 250, 0.2) !important;
     }
-    div[data-testid="stRadio"] div[role="radiogroup"] label:hover p {
-        color: #ffffff !important;
-    }
-
-    /* 7. Active/Checked state */
+    div[data-testid="stRadio"] div[role="radiogroup"] label:hover p { color: #ffffff !important; }
     div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) {
         background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%) !important;
         border-color: #a78bfa !important;
         box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4) !important;
     }
-    div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) p {
-        color: #ffffff !important;
+    div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) p { color: #ffffff !important; }
+
+    /* ==================== UPLOAD BUTTON STYLING ==================== */
+    div[data-testid="stFileUploader"] button {
+        background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%) !important;
+        color: white !important;
+        border: 1px solid #a78bfa !important;
+        border-radius: 8px !important;
+        transition: all 0.3s ease !important;
+        font-weight: 600 !important;
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2) !important;
+    }
+    div[data-testid="stFileUploader"] button:hover {
+        background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%) !important;
+        transform: translateY(-2px) scale(1.02) !important;
+        box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5) !important;
+    }
+    div[data-testid="stFileUploader"] section {
+        border: 1px dashed #475569 !important;
+        transition: border-color 0.3s ease !important;
+    }
+    div[data-testid="stFileUploader"] section:hover {
+        border-color: #60a5fa !important;
+        background-color: rgba(96, 165, 250, 0.05) !important;
     }
 
-    /* ==================== CARDS & BOXES ==================== */
+    /* ==================== SIDEBAR INTERACTIVITY ==================== */
+    /* Style the sidebar cards */
+    [data-testid="stSidebar"] .card {
+        transition: all 0.3s ease;
+        border-left: 3px solid transparent;
+    }
+    [data-testid="stSidebar"] .card:hover {
+        transform: translateX(5px);
+        border-left: 3px solid #3b82f6;
+        box-shadow: 0 5px 15px rgba(59, 130, 246, 0.15);
+    }
+    /* Animate the sidebar title text */
+    [data-testid="stSidebar"] .card-title {
+        transition: color 0.3s ease;
+    }
+    [data-testid="stSidebar"] .card:hover .card-title {
+        color: #60a5fa;
+    }
+
+    /* ==================== INTERACTIVE WELCOME HERO ==================== */
+    .welcome-hero { 
+        text-align: center; 
+        padding: 4rem 2rem; 
+        background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+        border-radius: 20px; 
+        border: 2px dashed #334155; 
+        margin-top: 2rem; 
+        transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+        position: relative;
+        overflow: hidden;
+    }
+    .welcome-hero:hover {
+        border-color: #60a5fa;
+        border-style: solid;
+        transform: translateY(-5px) scale(1.01);
+        box-shadow: 0 15px 35px rgba(96, 165, 250, 0.15), 
+                    inset 0 0 20px rgba(96, 165, 250, 0.05);
+    }
+    .welcome-icon { 
+        font-size: 5rem; 
+        margin-bottom: 1rem; 
+        transition: transform 0.4s ease;
+        display: inline-block;
+    }
+    .welcome-hero:hover .welcome-icon {
+        transform: translateY(-10px) scale(1.1);
+        animation: floatIcon 2s ease-in-out infinite;
+    }
+    @keyframes floatIcon {
+        0%, 100% { transform: translateY(-10px); }
+        50% { transform: translateY(-20px); }
+    }
+    .welcome-title { 
+        font-size: 2.2rem; 
+        font-weight: 800; 
+        margin-bottom: 1rem; 
+        background: linear-gradient(90deg, #60a5fa, #a78bfa, #60a5fa);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: background-position 0.5s ease;
+    }
+    .welcome-hero:hover .welcome-title {
+        animation: shine 3s linear infinite;
+    }
+    @keyframes shine {
+        to { background-position: 200% center; }
+    }
+    .welcome-text { 
+        color: #94a3b8; 
+        max-width: 600px; 
+        margin: 0 auto; 
+        line-height: 1.6; 
+        transition: color 0.3s ease;
+    }
+    .welcome-hero:hover .welcome-text {
+        color: #cbd5e1;
+    }
+
+    /* ==================== STANDARD CARDS & BOXES ==================== */
     .card { background: #1e293b; padding: 1.5rem; border-radius: 12px; border: 1px solid #334155; margin-bottom: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
     .card-title { font-size: 1.3rem; color: #f1f5f9; font-weight: 600; border-bottom: 2px solid #475569; margin-bottom: 1rem; padding-bottom: 0.5rem; }
     .success-box { background: linear-gradient(135deg, #064e3b 0%, #047857 100%); padding: 1.5rem; border-radius: 12px; border-left: 6px solid #10b981; margin: 1rem 0; box-shadow: 0 0 15px rgba(16, 185, 129, 0.2); }
     .error-box { background: linear-gradient(135deg, #7f1d1d 0%, #dc2626 100%); padding: 1.5rem; border-radius: 12px; border-left: 6px solid #ef4444; margin: 1rem 0; box-shadow: 0 0 15px rgba(239, 68, 68, 0.2); }
-    .part-badge { display: inline-block; padding: 8px 16px; border-radius: 20px; font-weight: 600; margin: 4px; color: white !important; font-size: 0.95rem; }
+    .part-badge { display: inline-block; padding: 8px 16px; border-radius: 20px; font-weight: 600; margin: 4px; color: white !important; font-size: 0.95rem; transition: transform 0.2s ease; }
+    .part-badge:hover { transform: scale(1.1); }
     .bolt-badge { background-color: #065f46; border: 1px solid #10b981; }
     .bearing-badge { background-color: #92400e; border: 1px solid #f59e0b; }
     .plate-badge { background-color: #1e40af; border: 1px solid #3b82f6; }
     .pin-badge { background-color: #6b21a8; border: 1px solid #a855f7; }
     .divider { height: 2px; background: linear-gradient(to right, transparent, #3b82f6, transparent); margin: 2rem 0; }
-    .welcome-hero { text-align: center; padding: 4rem 2rem; background: #1e293b; border-radius: 20px; border: 2px dashed #334155; margin-top: 2rem; }
-    .welcome-icon { font-size: 5rem; margin-bottom: 1rem; }
-    .welcome-title { font-size: 2rem; color: #f1f5f9; font-weight: 700; margin-bottom: 1rem; }
-    .welcome-text { color: #94a3b8; max-width: 600px; margin: 0 auto; line-height: 1.6; }
 
     /* ==================== STANDARD BUTTONS ==================== */
     div.stButton > button {
@@ -310,20 +403,18 @@ with st.sidebar:
         st.error("❌ **Refs Missing**")
 
 
-# ==================== CUSTOM SLIM TABS ====================
-col1, col2, col3 = st.columns([1, 2, 1])
-with col2:
-    # horizontal=True forces them side by side
-    selected_tab = st.radio(
-        "Navigation", 
-        ["🔍 Inspection Dashboard", "📜 Immutable Audit Log"], 
-        label_visibility="collapsed",
-        horizontal=True
-    )
+# ==================== CUSTOM HORIZONTAL TABS ====================
+selected_tab = st.radio(
+    "Navigation", 
+    ["🔍 Inspection Dashboard", "📜 Immutable Audit Log"], 
+    label_visibility="collapsed",
+    horizontal=True
+)
 
 # ==================== TAB 1: INSPECTION DASHBOARD ====================
 if selected_tab == "🔍 Inspection Dashboard":
-    st.markdown('<div class="card"><div class="card-title">📤 Upload Image for Inspection</div></div>', unsafe_allow_html=True)
+    st.markdown('<div class="card"><div class="card-title-gradient">📤 Upload Image for Inspection</div></div>', unsafe_allow_html=True)
+    
     uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png", "bmp"], label_visibility="collapsed")
 
     if uploaded_file:
