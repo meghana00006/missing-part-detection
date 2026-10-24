@@ -145,7 +145,6 @@ st.markdown("""
         letter-spacing: -1px;
     }
     
-    /* Enhanced Animated Subtitle */
     .sub-header { 
         font-size: 1.3rem; 
         text-align: center; 
@@ -165,52 +164,76 @@ st.markdown("""
         100% { background-position: 0% 50%; }
     }
 
-    /* ==================== TABS ==================== */
-    /* Style the outer tab container */
-    div[data-testid="stTabs"] > div:first-child {
-        background: #1e293b;
-        padding: 8px;
-        border-radius: 16px;
-        border: 1px solid #334155;
+    /* ==================== CUSTOM INTERACTIVE TABS ==================== */
+    /* Container for the radio buttons */
+    div[data-testid="stRadio"] > div[role="radiogroup"] {
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        gap: 10px;
-        margin-bottom: 2rem;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        gap: 20px;
+        margin-bottom: 2.5rem;
+        background: #1e293b;
+        padding: 15px;
+        border-radius: 20px;
+        border: 1px solid #334155;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     }
 
-    /* Style individual tab buttons */
-    div[data-testid="stTabs"] button {
-        background: transparent;
-        border: 1px solid transparent;
-        border-radius: 10px;
-        padding: 10px 24px;
+    /* Hide the default radio circle */
+    div[data-testid="stRadio"] label > div:first-child {
+        display: none !important;
+    }
+
+    /* Style the label container */
+    div[data-testid="stRadio"] label {
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        border: 1px solid #334155;
+        border-radius: 12px;
+        padding: 12px 32px !important;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    /* Text inside the buttons */
+    div[data-testid="stRadio"] label p {
+        font-size: 1.15rem;
+        font-weight: 700;
         color: #94a3b8 !important;
-        font-weight: 600;
-        font-size: 1.05rem;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        margin: 0 !important;
+        transition: all 0.3s ease;
     }
 
-    /* Tab Hover */
-    div[data-testid="stTabs"] button:hover {
+    /* HOVER EFFECT */
+    div[data-testid="stRadio"] label:hover {
+        transform: translateY(-4px) scale(1.02);
+        border-color: #60a5fa;
+        box-shadow: 0 10px 25px rgba(96, 165, 250, 0.3);
+        background: linear-gradient(135deg, #1e3a5f 0%, #1e293b 100%);
+    }
+    div[data-testid="stRadio"] label:hover p {
         color: #ffffff !important;
-        background: rgba(96, 165, 250, 0.1);
-        border-color: rgba(96, 165, 250, 0.3);
-        transform: translateY(-2px);
     }
 
-    /* Active/Selected Tab */
-    div[data-testid="stTabs"] button[aria-selected="true"] {
+    /* ACTIVE / SELECTED EFFECT */
+    /* Streamlit adds this attribute to the checked radio button */
+    div[data-testid="stRadio"] label:has(input:checked) {
         background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-        color: #ffffff !important;
         border: 1px solid #a78bfa;
-        box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
-        transform: scale(1.02);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5), inset 0 2px 5px rgba(255,255,255,0.2);
     }
-
-    /* Remove default Streamlit red highlight & border */
-    div[data-baseweb="tab-highlight"] { display: none; }
-    div[data-baseweb="tab-border"] { display: none; }
+    div[data-testid="stRadio"] label:has(input:checked) p {
+        color: #ffffff !important;
+    }
+    /* Add a glowing pulse to active tab */
+    div[data-testid="stRadio"] label:has(input:checked):hover {
+        box-shadow: 0 12px 30px rgba(139, 92, 246, 0.7), inset 0 2px 5px rgba(255,255,255,0.2);
+        transform: translateY(-4px) scale(1.03);
+    }
 
     /* ==================== CARDS & BOXES ==================== */
     .card { background: #1e293b; padding: 1.5rem; border-radius: 12px; border: 1px solid #334155; margin-bottom: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
@@ -228,7 +251,7 @@ st.markdown("""
     .welcome-title { font-size: 2rem; color: #f1f5f9; font-weight: 700; margin-bottom: 1rem; }
     .welcome-text { color: #94a3b8; max-width: 600px; margin: 0 auto; line-height: 1.6; }
 
-    /* ==================== BUTTONS ==================== */
+    /* ==================== STANDARD BUTTONS ==================== */
     div.stButton > button {
         background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
         color: white !important;
@@ -299,10 +322,21 @@ with st.sidebar:
         st.error("❌ **Refs Missing**")
 
 
-# ==================== MAIN TABS ====================
-tab1, tab2 = st.tabs(["🔍 Inspection Dashboard", "📜 Immutable Audit Log"])
+# ==================== CUSTOM TABS IMPLEMENTATION ====================
+# We use a radio button disguised as custom buttons, centered on the page
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    selected_tab = st.radio(
+        "Navigation", 
+        ["🔍 Inspection Dashboard", "📜 Immutable Audit Log"], 
+        label_visibility="collapsed",
+        horizontal=True
+    )
 
-with tab1:
+st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+
+# ==================== TAB 1: INSPECTION DASHBOARD ====================
+if selected_tab == "🔍 Inspection Dashboard":
     st.markdown('<div class="card"><div class="card-title">📤 Upload Image for Inspection</div></div>', unsafe_allow_html=True)
     uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png", "bmp"], label_visibility="collapsed")
 
@@ -441,7 +475,8 @@ with tab1:
         """, unsafe_allow_html=True)
 
 
-with tab2:
+# ==================== TAB 2: IMMUTABLE AUDIT LOG ====================
+elif selected_tab == "📜 Immutable Audit Log":
     st.markdown('<div class="card"><div class="card-title">📜 Session Immutable Audit Log</div></div>', unsafe_allow_html=True)
     
     if len(st.session_state.audit_history) == 0:
