@@ -133,6 +133,9 @@ st.markdown("""
 <style>
     .stApp { background-color: #0e1117; }
     
+    /* ==================== HIDE STREAMLIT FOOTER ==================== */
+    footer {visibility: hidden;}
+
     /* ==================== HEADERS & TEXT ANIMATIONS ==================== */
     .main-header { 
         font-size: 3.5rem; 
